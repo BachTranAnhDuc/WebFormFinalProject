@@ -21,6 +21,16 @@ namespace Midterm_Project_ASP_MVC.Controllers
             _db = db;
         }
 
+        public IActionResult Payment()
+        {
+            return View();
+        }
+
+        public IActionResult Finish()
+        {
+            return View();
+        }
+
         // GET: Products
         public async Task<IActionResult> Index()
         {
