@@ -1,0 +1,113 @@
+﻿@{
+    var data = Context.Session.GetString("cart");
+
+    int coutCart = 0;
+    if (data == null)
+    {
+        coutCart = 0;
+    }
+    else
+    {
+        var data2 = Context.Session.GetString("cart");
+        List<CartItem> dataCart = JsonConvert.DeserializeObject<List<CartItem>>(data2);
+        foreach (var item in dataCart)
+        {
+            coutCart += item.quantity;
+        }
+
+    }
+
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Midterm_Project_ASP_MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow custom-nav">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/Images/logo/rubik-logo.png" alt="Rubik Store" height="70" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-nav font-weight-bold text-uppercase" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-nav font-weight-bold text-uppercase" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-nav font-weight-bold text-uppercase" asp-area="" asp-controller="Product" asp-action="ListCart">
+                                Cart
+                                <i class="fas fa-shopping-cart"></i>
+                                @coutCart
+                            </a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial.cshtml" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="About"><i class="far fa-address-card"></i> About us</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Services"><i class="fab fa-app-store"></i> Services</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Contact"><i class="far fa-address-book"></i> Contact</a>
+                </li>
+                <li>
+                    <a id="manage" class="nav-link font-italic" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                        <i class="far fa-user"></i> My account
+                    </a>
+                </li>
+                <li>
+                    <a class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })"><i class="fas fa-sign-out-alt"></i> Log out</a>
+                </li>
+            </ul>
+            <button class="sidebarBtn my-auto py-auto">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container mt-3">
+            <p>&copy; 2021 - Midterm_Project_ASP_MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
+        </div>
+    </footer>
+
+    @if (IsSectionDefined("scripts"))
+    {
+        RenderSection("scripts");
+    }
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

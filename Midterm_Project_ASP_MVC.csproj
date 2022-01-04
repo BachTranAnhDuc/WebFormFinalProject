@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Images\Icons\**" />
+    <Content Remove="wwwroot\Images\Icons\**" />
+    <EmbeddedResource Remove="wwwroot\Images\Icons\**" />
+    <None Remove="wwwroot\Images\Icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\back1.jpg" />
+    <None Include="wwwroot\Images\back2.jpg" />
+    <None Include="wwwroot\Images\back4.jpg" />
+    <None Include="wwwroot\Images\banner.jpg" />
+    <None Include="wwwroot\Images\Products\2x2-gan-1.jpg" />
+    <None Include="wwwroot\Images\Products\3x3-dayan.jpg" />
+    <None Include="wwwroot\Images\Products\3x3-gan-11-m-pro-frosted-black-stickerless.jpg" />
+    <None Include="wwwroot\Images\Products\4x4-1.jpg" />
+    <None Include="wwwroot\Images\Products\5x5-valk.jpg" />
+    <None Include="wwwroot\Images\Products\clock-1.jpg" />
+    <None Include="wwwroot\Images\Products\megaminx-gan.jpg" />
+    <None Include="wwwroot\Images\Products\mirror-1.JPG" />
+    <None Include="wwwroot\Images\Products\mirror-2.jpg" />
+    <None Include="wwwroot\Images\Products\pyraminx-gan.jpg" />
+    <None Include="wwwroot\Images\Products\skew-b-gan.jpg" />
+    <None Include="wwwroot\Images\serg-antonov-vIs2yPOsHhs-unsplash.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Graph" Version="4.11.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

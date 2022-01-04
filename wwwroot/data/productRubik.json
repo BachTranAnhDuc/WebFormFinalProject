@@ -1,0 +1,142 @@
+﻿{
+  "rubiks": [
+    {
+      "Id": "rubik001",
+      "Maker": "@jenlooper",
+      "img": "/Images/Products/2x2-gan-1.jpg",
+      "Url": "https://www.hackster.io/agent-hawking-1/the-quantified-cactus-an-easy-plant-soil-moisture-sensor-e65393",
+      "Title": "Rubik 2x2 Gan",
+      "Description": "Some text",
+      "Ratings": [
+        5,
+        5
+      ]
+    },
+    {
+      "Id": "rubik002",
+      "Maker": "jenlooper",
+      "img": "/Images/Products/3x3-dayan.jpg",
+      "Url": "https://www.hackster.io/agent-hawking-1/book-light-dee7e4",
+      "Title": "Rubik 3x3 Dayan",
+      "Description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik003",
+      "Maker": "@jenlooper",
+      "img": "/Images/Products/3x3-gan-11-m-pro-frosted-black-stickerless.jpg",
+      "Url": "https://www.hackster.io/agent-hawking-1/bling-your-laptop-with-an-internet-connected-light-show-30e4db",
+      "Title": "Rubik 3x3 Gan 11 M Pro Frosted Black",
+      "Description": "Create a web-connected light-strip API controllable from your website, using the Particle.io.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik004",
+      "Maker": "jenlooper",
+      "img": "/Images/Products/4x4-1.jpg",
+      "Url": "https://www.hackster.io/agent-hawking-1/create-a-compact-survival-kit-38bfdb",
+      "Title": "Rubik 4x4",
+      "Description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik005",
+      "Maker": "sailorhg",
+      "img": "/Images/Products/5x5-valk.jpg",
+      "Url": "https://twitter.com/sailorhg/status/1090107740049952770",
+      "Title": "Rubik 5x5 Valk",
+      "Description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet\u0027s distance from the sun",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik006",
+      "Maker": "sailorhg",
+      "img": "/Images/Products/clock-1.jpg",
+      "Url": "https://twitter.com/sailorhg/status/1090113666911891456",
+      "Title": "Light-up Corsage",
+      "Description": "Rubik Clock",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik007",
+      "Maker": "sailorhg",
+      "img": "/Images/Products/megaminx-gan.jpg",
+      "Url": "https://twitter.com/sailorhg/status/1090122822007963648",
+      "Title": "Rubik Megaminx Gan",
+      "Description": "Pastel hardware kits complete with custom manufactured pastel alligator clips.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik008",
+      "Maker": "sailorhg",
+      "img": "/Images/Products/mirror-2.jpg",
+      "Url": "https://twitter.com/sailorhg/status/1090117277540745216",
+      "Title": "Rubk Mirror",
+      "Description": "custom molded heart shaped LED with sprinkles.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik009",
+      "Maker": "selinazawacki",
+      "img": "/Images/Products/pyraminx-gan.jpg",
+      "Url": "https://www.instagram.com/p/BNvESj-j8PI/",
+      "Title": "Rubik Pyraminx Gan",
+      "Description": "Black sweatshirt hoody with the Sick of the Internet logo.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik010",
+      "Maker": "selinazawacki",
+      "img": "/Images/Products/skew-b-gan.jpg",
+      "Url": "https://www.instagram.com/p/BNm6hZzDoEF/",
+      "Title": "Rubik Skew-b Gan",
+      "Description": "Still some time to enter the pin/sticker giveaway! ",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik011",
+      "Maker": "vogueandcode",
+      "img": "/Images/Products/12x12.jpg",
+      "Url": "https://www.vogueandcode.com/shop/hipster-dev-bro",
+      "Title": "CuberSpeed Moyu MoFang JiaoShi Meilong 12x12 stickerless",
+      "Description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik012",
+      "Maker": "vogueandcode",
+      "img": "/Images/Products/3x3-blutooth",
+      "Url": "https://www.vogueandcode.com/shop/pretty-girls-code-tee",
+      "Title": "GoCube Bluetooth",
+      "Description": "Everyone\u2019s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik013",
+      "Maker": "vogueandcode",
+      "img": "/Images/Products/3x3-twist.jpg",
+      "Url": "https://www.vogueandcode.com/shop/ruby-sis-2",
+      "Title": "CuberSpeed ​​YJ Axis V2",
+      "Description": "Styled in a dashiki, Ruby Sis is listening to music while coding in her favorite language, Ruby!",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik014",
+      "Maker": "selinazawacki",
+      "img": "/Images/Products/squre-1.jpg",
+      "Url": "https://www.instagram.com/p/BFktVYPinKQ/",
+      "Title": "CuberSpeed Twist 3x3 stickerelss",
+      "Description": "Not sure if I\u0027ll be making more, get it while I have it in the store.",
+      "Ratings": null
+    },
+    {
+      "Id": "rubik015",
+      "Maker": "selinazawacki",
+      "img": "/Images/Products/3x3-gan-11-m-pro-frosted-black-stickerless.jpg",
+      "Url": "https://www.instagram.com/p/BEXlpiZCnJ3",
+      "Title": "Floppy Crop",
+      "Description": "Used up the Diskette fabric today to make 2 of these crops.",
+      "Ratings": null
+    }
+  ]
+}
