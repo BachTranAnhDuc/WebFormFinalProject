@@ -269,6 +269,12 @@ td, th {
     color: red;
 }
 
+.card-body {
+    background-image: url('../Images/4bg1e6u.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
 
 
 
